@@ -133,14 +133,12 @@ import math
 a = float(input("Enter the value of a: "))
 b = float(input("Enter the value of b: "))
 c = float(input("Enter the value of c: "))
-
 # Check if quadratic equation is valid
 if a == 0:
     print("Invalid input: 'a' cannot be 0 in a quadratic equation.")
 else:
     discriminant = (b ** 2) - (4 * a * c)
-
-    if discriminant <=0:
+    if discriminant <0:
         print("No real solutions (discriminant is negative).")
     else:
         sqrt_disc = math.sqrt(discriminant)
