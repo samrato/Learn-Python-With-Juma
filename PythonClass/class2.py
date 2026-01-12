@@ -80,3 +80,74 @@ print(max(juma))
 #         print("Its odd number ")    
 
 # odd(2)
+
+
+
+
+# import math
+# pe=math.pi
+# # 2*pe=math.tau
+# # inputs of the data from the usetr
+# radius=float(input("Enter the radius :"))
+# Height=float(input("Enter the Height :"))
+# #calculation of the surface are 
+# area=(pe*radius**2)
+# #printing the are of the programs
+# print(f"The are is :{area}")
+# surface_are=(2*pe*radius*radius)+(pe*(radius+radius)*Height)
+# #printing of the results outputs 
+# print("The surface are is :",surface_are)
+# volume=area*Height
+# #printing out the volume 
+# print(f"The volume is :{volume}")
+
+#having a mobile device can be a life saver on long road trips 
+#programs like google mpas finds the shortest routes and estimates the time of the arrival
+#Find the shortest route 
+#The time of arrival is best on the current time + How long the trip will take 
+#Write a program thats inputs the current time and estimate the lenght of a trip ,calculate the time of arrivall
+#and outputs the results in ours and minutes 
+#Th prompts _____
+# import time 
+# from datetime import datetime,timedelta
+# curenttimes=datetime.now().time(
+# fredyy={
+#     "mumbo":45,
+#     "kakameg":65
+# }
+# print(fredyy)
+
+# # for keys in fredyy.keys()
+# destination=input("Enter the destination from our platform")
+# curenttime=3 
+# routes="Mombasa"
+# if routes== "Mombasa":
+#     curenttime+fredyy["mumbo"]
+# else :
+#     curenttime+fredyy["kakameg"]
+
+# print("The current time is :",curenttime)
+import math
+
+# Input values
+a = float(input("Enter the value of a: "))
+b = float(input("Enter the value of b: "))
+c = float(input("Enter the value of c: "))
+
+# Check if quadratic equation is valid
+if a == 0:
+    print("Invalid input: 'a' cannot be 0 in a quadratic equation.")
+else:
+    discriminant = (b ** 2) - (4 * a * c)
+
+    if discriminant <=0:
+        print("No real solutions (discriminant is negative).")
+    else:
+        sqrt_disc = math.sqrt(discriminant)
+        denominator = 2 * a
+        root1 = (-b + sqrt_disc) / denominator
+        root2 = (-b - sqrt_disc) / denominator
+        print("The first value is:", root1)
+        print("The second value is:", root2)
+        
+
